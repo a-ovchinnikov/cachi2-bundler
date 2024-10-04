@@ -165,6 +165,11 @@ GEM
       rake (>= 12.2)
       thor (~> 1.0)
     rake (13.2.1)
+    sorbet (0.5.11595)
+      sorbet-static (= 0.5.11595)
+    sorbet-static (0.5.11595-aarch64-linux)
+    sorbet-static (0.5.11595-universal-darwin)
+    sorbet-static (0.5.11595-x86_64-linux)
     sprockets (4.2.1)
       concurrent-ruby (~> 1.0)
       rack (>= 2.2.4, < 4)
@@ -196,6 +201,7 @@ DEPENDENCIES
   nokogiri (~> 1.16)
   quux!
   rails (= 6.1.7)
+  sorbet (~> 0.5)
   tmp!
 
 BUNDLED WITH
