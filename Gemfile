@@ -11,6 +11,8 @@ gem "nokogiri", "~> 1.16"
 
 gem "sorbet", "~> 0.5"
 
+gem "sqlite3", "~> 2.1.0"
+
 gem "quux", path: "./quux"
 
 source "http://rubygems.org" do
